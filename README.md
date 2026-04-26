@@ -9,6 +9,7 @@ A crime analytics database tracking:
 - locations
 - severity
 - perpetrators
+
 Allows for viewing all crimes, searching for incidents by state, searching by perpetrators, viewing incident reports, and seeing how many incidents there's been for each type of crime. 
  
 
