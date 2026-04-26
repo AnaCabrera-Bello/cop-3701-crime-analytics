@@ -36,4 +36,6 @@ A key challenge is keeping the schema normalized while still supporting analytic
 2. Click the green **Code** button
 3. Click the **Codespaces** tab
 4. Click **Create codespace on main**
-5. 
+5. Run the setup file by pasting this into the terminal: **bash setup.sh**
+6. Start the app by pasting this into the terminal: **streamlit run app.py**
+7. Click **Open in Browser** on the popup
