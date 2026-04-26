@@ -3,12 +3,13 @@ Database project about crime data for COP3701.
 
 
 
-### Project Scope (tentative)
+### Project Scope
 A crime analytics database tracking:
 - incidents
 - locations
 - severity
-
+- perpetrators
+Allows for viewing all crimes, searching for incidents by state, searching by perpetrators, viewing incident reports, and seeing how many incidents there's been for each type of crime. 
  
 
 ### Users
@@ -19,6 +20,12 @@ A crime analytics database tracking:
 
 ### Data Source(s)
 https://www.kaggle.com/datasets/murderaccountability/homicide-reports
+
+
+
+### ER Diagram
+[Crime ER Model.pdf](https://github.com/user-attachments/files/26426601/Crime.ER.Model.pdf)
+
 
 
 ## Database Application Proposal
@@ -34,7 +41,7 @@ A key challenge is keeping the schema normalized while still supporting analytic
 ### How To Use
 1. Open the GitHub Repository
 2. Click the green **Code** button
-3. Click the **Codespaces** tab
+3. Click the **Codespaces** tab. You need to be signed into GitHub to see this.
 4. Click **Create codespace on main**
 5. Run the setup file by pasting this into the terminal: **bash setup.sh**
 6. Start the app by pasting this into the terminal: **streamlit run app.py**
